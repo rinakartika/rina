@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.kiri{
+    background-color: orange;
+    height: 100vh;
+    flex: 0.4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+.kiri a{
+    text-decoration: none;
+    text-align: center;
+    color: aliceblue;
+}
+.kiri header h1{
+    color: aliceblue;
+}
+.kanan{
+    background-color: wheat;
+    height: 100vh;
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kanan .login{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
